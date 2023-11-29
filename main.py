@@ -6,7 +6,7 @@ def main():
     return CheckNumbers(number, userInput)
 
 def RandomNumber():
-    return None
+    return random.randint(1,9)
 
 def CheckNumbers(a,b):
     return None    
