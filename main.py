@@ -6,7 +6,7 @@ def main():
     return print(CheckNumbers(number, userInput))
 
 def RandomNumber():
-    return None
+    return random.randint(0,9)
 
 def CheckNumbers(a,b):
     if a == b:
